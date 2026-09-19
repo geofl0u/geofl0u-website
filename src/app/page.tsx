@@ -1,11 +1,25 @@
+import Link from "next/link";
 import Header from "./components/header";
+import PageWrapper from "./components/pageWrapper";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col text-text">
-      <div className="container mx-auto flex max-w-3xl flex-col items-start justify-center gap-2 px-16 py-80">
-        <Header />
-      </div>
-    </main>
+    <PageWrapper>
+      <Header title={"geofl0u"} subtitle={"wanders through pixels and APIs"} />
+      <nav className="flex flex-col gap-2 text-zinc-300">
+        <Link
+          href="/projects"
+          className="animate-fade-in text-xl hover:text-zinc-500 hover:italic"
+        >
+          projects
+        </Link>
+        <Link
+          href="/about"
+          className="animate-fade-in text-xl hover:text-zinc-500 hover:italic"
+        >
+          about
+        </Link>
+      </nav>
+    </PageWrapper>
   );
 }
