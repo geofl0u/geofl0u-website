@@ -2,7 +2,7 @@
   display: block;
   width: 36px;
   height: 36px;
-  background-color: var(--color-zinc-500);
+  background-color: var(--color-zinc-300);
 
   mask: url("/back.svg") center / contain no-repeat;
   -webkit-mask: url("/back.svg") center / contain no-repeat;
@@ -11,5 +11,5 @@
 }
 
 .back-icon:hover {
-  background-color: var(--color-zinc-300);
+  background-color: var(--color-zinc-500);
 }
