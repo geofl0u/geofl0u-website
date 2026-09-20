@@ -2,7 +2,6 @@
 
 Here I will write the process of developing the project. A narrations of the challenges faced along the way, decisions taken and all the learning happened along the way.
 
-
 <br>
 <br>
 
@@ -15,7 +14,6 @@ I think the title is pretty self explanatory. My portfolio website. It will be b
 
 ## Journal
 
-
 ### 17 Sept 2026
 
 Begun with initial setup to familiarize with the code structure. Managed to only init the header of the website. Not much time to give today but things are now in motion.
@@ -24,3 +22,7 @@ Begun with initial setup to familiarize with the code structure. Managed to only
 
 Added the about page, polished the layout code and initialized projects page. Again time was not my ally today but I am happy with the little progress made. Decided to have as
 tidied layout as possible in component separation level because it is a pattern I want to adopt in bigger scale projects.
+
+### 20 Sept 2026
+
+Implemented projects page. Went for a minimal approach on how to display them. Some polishing left and the website is ready to go live.
