@@ -6,7 +6,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background-color: var(--color-zinc-600);
+  background-color: var(--color-zinc-800);
 
   margin: auto;
 
@@ -17,5 +17,5 @@
 }
 
 .git-icon:hover {
-  background-color: var(--color-zinc-400);
+  background-color: var(--color-zinc-600);
 }
