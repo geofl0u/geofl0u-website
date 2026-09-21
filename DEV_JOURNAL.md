@@ -26,3 +26,7 @@ tidied layout as possible in component separation level because it is a pattern 
 ### 20 Sept 2026
 
 Implemented projects page. Went for a minimal approach on how to display them. Some polishing left and the website is ready to go live.
+
+### 21 Sept 2026
+
+Ready for launch. Added final touches. I am happy with the result. Commits from now on would be to add projects to the portfolio.
