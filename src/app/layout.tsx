@@ -8,13 +8,12 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/logo.png" }], //TODO: Find a better favicon
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="h-full bg-linear-to-t from-gray-900 to-black text-white">
-      <body className="min-h-full text-text font-mono">{children}</body>
+    <html lang="en" className="h-full bg-black text-white">
+      <body className="text-text min-h-full font-mono">{children}</body>
     </html>
   );
 }
