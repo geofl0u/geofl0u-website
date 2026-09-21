@@ -9,7 +9,9 @@ export default function ProjectsPage() {
   return (
     <PageWrapper>
       <Header title={"projects"} subtitle={"let there be code"} />
-      <div className={`w-100% just mb-32 grid grid-cols-2 gap-8`}>
+      <div
+        className={`w-100% just mb-32 grid grid-cols-1 gap-8 sm:grid-cols-2`}
+      >
         {PROJECTS.map((p) => (
           <ProjectCard
             key={uuidv4()}
