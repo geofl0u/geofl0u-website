@@ -1,0 +1,21 @@
+.divider {
+  border: 1px solid var(--color-zinc-800);
+}
+
+.git-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-zinc-600);
+
+  margin: auto;
+
+  mask: url("/github-icon.svg") center / contain no-repeat;
+  -webkit-mask: url("/github-icon.svg") center / contain no-repeat;
+
+  transition: background-color 150ms ease;
+}
+
+.git-icon:hover {
+  background-color: var(--color-zinc-400);
+}
